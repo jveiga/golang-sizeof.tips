@@ -1,0 +1,6 @@
+github.com/elazarl/go-bindata-assetfs v1.0.1 h1:m0kkaHRKEu7tUIUFVwhGGGYClXvyl4RE03qmvRTNfbw=
+github.com/elazarl/go-bindata-assetfs v1.0.1/go.mod h1:v+YaWX3bdea5J/mo8dSETolEo7R71Vk1u8bnjau5yw4=
+github.com/gophergala/golang-sizeof.tips v1.0.0 h1:olqnoAK5YLAeAT32aU1gpTx19KE/l4iEWhZS+qlsq5c=
+github.com/gophergala/golang-sizeof.tips v1.0.0/go.mod h1:Lz6maUJ8Sv6lmAh35wfrU1StUJyOA0gzdfYeKCeDWT8=
+github.com/tyranron/daemonigo v0.3.1 h1:kLt7oKl2AceLdPl6qaXOYQZM4ZZLhT9jWrZa02iq2PQ=
+github.com/tyranron/daemonigo v0.3.1/go.mod h1:tXUGvLFtBWBCpYfzgvLNuHZ4NhuwSjyNcs4gsXWZw8k=

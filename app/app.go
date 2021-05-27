@@ -1,8 +1,8 @@
 package app
 
-import "github.com/gophergala/golang-sizeof.tips/internal/log"
+// import "github.com/gophergala/golang-sizeof.tips/internal/log"
 
-var appLog log.Logger
+// var appLog log.Logger
 
 const DefaultHttpPort = ":7777"
 

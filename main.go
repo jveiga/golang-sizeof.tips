@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/gophergala/golang-sizeof.tips/app"
+	"tips/app"
 )
 
 func main() {

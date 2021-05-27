@@ -2,11 +2,12 @@ package app
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"runtime"
 	"strings"
 
-	"github.com/gophergala/golang-sizeof.tips/internal/bindata/static"
+	"tips/internal/bindata/static"
 )
 
 func bindHttpHandlers() {
@@ -19,7 +20,7 @@ func bindHttpHandlers() {
 				buf := make([]byte, 1<<16)
 				runtime.Stack(buf, false)
 				reason := fmt.Sprintf("%v: %s", r, buf)
-				appLog.Critical("Runtime failure, reason -> %s", reason)
+				log.Println("Runtime failure, reason -> %s", reason)
 				write500(w)
 			}
 		}()
